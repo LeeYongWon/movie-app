@@ -5,9 +5,9 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 const App = () => {
   return(
     <div>
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router >
           <Routes>
-            <Route path='/' element={<Home />} />
+            <Route path={`${process.env.PUBLIC_URL}/`} element={<Home />} />
             <Route path='/movie/:id' element={<Detail />} />
           </Routes>
       </Router>
