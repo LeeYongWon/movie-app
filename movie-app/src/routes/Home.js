@@ -38,7 +38,7 @@ const Home = () =>{
                 return(
                 <Movie
                   key={movie.id}
-                  
+                  id={movie.id}
                   coverImg={movie.medium_cover_image}
                   title={movie.title}
                   summary={movie.summary}
