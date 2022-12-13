@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/Movie-App/static/js/main.22b3954b.js",
-    "index.html": "/Movie-App/index.html",
-    "main.22b3954b.js.map": "/Movie-App/static/js/main.22b3954b.js.map"
+    "main.js": "/LeeYongWon/Movie-App.git/static/js/main.22b3954b.js",
+    "index.html": "/LeeYongWon/Movie-App.git/index.html",
+    "main.22b3954b.js.map": "/LeeYongWon/Movie-App.git/static/js/main.22b3954b.js.map"
   },
   "entrypoints": [
     "static/js/main.22b3954b.js"
