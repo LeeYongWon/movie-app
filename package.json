@@ -1,0 +1,23 @@
+{
+  "name": "movie-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeeYongWon/Movie-App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeeYongWon/Movie-App/issues"
+  },
+  "homepage": "https://github.com/LeeYongWon/Movie-App#readme",
+  "dependencies": {
+    "create-react-app": "^5.0.1",
+    "movie-app": "^2.0.0"
+  }
+}
