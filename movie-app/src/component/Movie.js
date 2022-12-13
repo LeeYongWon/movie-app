@@ -1,12 +1,10 @@
 import PropTypes from 'prop-types'
+import { Link } from 'react-router-dom'
 const Movie=({title,coverImg,summary ,genres })=>{
-
     return(
-        
-            
               <div >
                 <img src={coverImg} alt={title} />
-                <h2>{title}</h2>
+                <Link to='/movie'><h2>{title}</h2></Link>
                 <p>{summary}</p>
                 <ul>
                   {genres.map((genre, idx) => (
@@ -15,8 +13,6 @@ const Movie=({title,coverImg,summary ,genres })=>{
                 </ul>
                 <hr/>
               </div>
-            
-         
     )
 }
 
